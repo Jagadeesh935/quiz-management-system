@@ -1,0 +1,58 @@
+body {
+    background-color: aliceblue;
+}
+
+#title {
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title > h1{
+    display: inline-block;
+    font-size: 2em;
+}
+
+#title-bar {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#title-bar button {
+    border: 0px;
+    border-radius: 3px;
+    background-color: #89f3f3;
+    color: black;
+    padding: 5px;
+    font-size: 1.1em;
+    width: 5em;
+    transition-duration: 0.3s;
+}
+
+#title-bar button:hover{
+    background-color: #00ffff;
+}
+
+#quizBody {
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+    height: 78vh;
+}
+
+#quizBody > #question {
+    width: 55%;
+    font-size: 1.1em;
+}
+
+#quizBody > #choice {
+    border-left: 2px dashed black;
+    padding-left: 3em;
+    font-size: 1.1em;
+}
